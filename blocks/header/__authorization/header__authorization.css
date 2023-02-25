@@ -1,0 +1,6 @@
+.header__authorization {
+    display: grid;
+    grid-template-columns: 138px 51px;
+    align-items: center;
+    justify-self: end;
+}

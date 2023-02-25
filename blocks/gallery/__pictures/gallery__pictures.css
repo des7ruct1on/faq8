@@ -1,0 +1,6 @@
+.gallery__pictures {
+    display: grid;
+    padding: 12px;
+    gap: 12px;
+    grid-template-columns: 880px 524px;
+}
