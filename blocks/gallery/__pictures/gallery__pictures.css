@@ -4,3 +4,21 @@
     gap: 12px;
     grid-template-columns: 880px 524px;
 }
+
+@media screen and (min-width: 1441px) {
+    .gallery__pictures {
+        grid-template-columns: 880px 524px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .gallery__pictures {
+        grid-template-columns: 700px 439px;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .gallery__pictures {
+        grid-template-columns: 650px 375px;
+    }
+}

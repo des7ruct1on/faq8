@@ -17,28 +17,28 @@
 }
 
 .header__input::placeholder {
-    font-family: 'Inria Serif', 'Times New Roman', Times, serif;
+    font-family: 'Gilroy Thin', 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(14/12);
 }
 
 .header__input::-webkit-input-placeholder {
-    font-family: 'Inria Serif', 'Times New Roman', Times, serif;
+    font-family: 'Gilroy Thin', 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(14/12);
 }
 
 .header__input::-moz-placeholder {
-    font-family: 'Inria Serif', 'Times New Roman', Times, serif;
+    font-family: 'Gilroy Thin', 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(14/12);
 }
 
 .header__input::-ms-input-placeholder {
-    font-family: 'Inria Serif', 'Times New Roman', Times, serif;
+    font-family: 'Gilroy Thin', 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(14/12);

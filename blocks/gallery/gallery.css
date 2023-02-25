@@ -4,18 +4,12 @@
     margin: auto;
     overflow: hidden;
     transition: max-width 0.5s ease-in-out, border-radius 2s ease-in-out;
-}
-
-@media screen and (min-width: 1441px) {
-    .gallery {
-        border-radius: 15px;
-    }
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 1439px) {
     .gallery {
         max-width: 1175px;
-        border-radius: 15px;
     }
 }
 
