@@ -24,3 +24,8 @@
         display: block;
     }
 }
+@media screen and (min-width: 1175px) {
+    .header__dropdown-button {
+        display: none;
+    }
+}

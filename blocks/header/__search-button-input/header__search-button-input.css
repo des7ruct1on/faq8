@@ -1,43 +1,41 @@
-.header__input {
+.header__search-button-input {
+    display: none;
     border: 0;
     padding: 0;
+    margin-left: 25px;
+    margin-right: 25px;
     width: 257px;
     height: 26px;
     border-radius: 15px;
     transition: width 0.5s ease-in-out, margin-left 0.5s ease-in-out;;
-    justify-self: start;
-    align-self: center;
     margin-left: 33px;
     padding-left: 15px;
 }
-
-.header__input:focus {
+.header__search-button-input:focus {
     outline: none;
-    width: 300px;
 }
 
-.header__input::placeholder {
+.header__search-button-input::placeholder {
     font-family: 'Gilroy Thin', 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(14/12);
 }
 
-.header__input::-webkit-input-placeholder {
+.header__search-button-input::-webkit-input-placeholder {
+    font-family: 'Gilroy Thin', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(14/12);
+}
+.header__search-button-input::-moz-placeholder {
     font-family: 'Gilroy Thin', 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(14/12);
 }
 
-.header__input::-moz-placeholder {
-    font-family: 'Gilroy Thin', 'Times New Roman', Times, serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(14/12);
-}
-
-.header__input::-ms-input-placeholder {
+.header__search-button-input::-ms-input-placeholder {
     font-family: 'Gilroy Thin', 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 14px;
@@ -45,16 +43,23 @@
 }
 
 @media screen and (max-width: 1439px) {
-    .header__input {
-        margin-left: 25px;
+    .header__search-button-input {
         width: 175px;
     }
-    .header__input:focus {
+    .header__search-button-input:focus {
         width: 225px;
     }
 }
+
+
+
 @media screen and (max-width: 1174px) {
-    .header__input {
+    .header__search-button-input  {
+        display: block;
+    }
+}
+@media screen and (min-width: 1175px) {
+    .header__search-button-input {
         display: none;
     }
 }

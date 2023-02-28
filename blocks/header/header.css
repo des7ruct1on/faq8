@@ -21,6 +21,6 @@
     .header {
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
-        grid-template-columns: 104px max-content 255px auto;
+        grid-template-columns: 104px max-content auto;
     }
 }
