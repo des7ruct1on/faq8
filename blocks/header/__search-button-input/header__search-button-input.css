@@ -46,9 +46,7 @@
     .header__search-button-input {
         width: 175px;
     }
-    .header__search-button-input:focus {
-        width: 225px;
-    }
+    
 }
 
 

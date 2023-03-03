@@ -18,6 +18,10 @@
 @import url(../blocks/header/__dropdown-menu/header__dropdown-menu.css);
 @import url(../blocks/header/__search-button/header__search-button.css);
 @import url(../blocks/header/__search-button-input/header__search-button-input.css);
+@import url(../blocks/header/__dropdown-link/header__dropdown-link.css);
+@import url(../blocks/header/__dropdown-social/header__dropdown-social.css);
+@import url(../blocks/header/__dropdown-social-link-tg/header__dropdown-social-link-tg.css);
+@import url(../blocks/header/__dropdown-social-link-vk/header__dropdown-social-link-vk.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__intro/gallery__intro.css);
