@@ -2,18 +2,24 @@
     display: grid;
     padding: 12px;
     gap: 12px;
-    grid-template-columns: 880px 524px;
+    grid-template-columns: 1000px 400px;
+    grid-template-rows: repeat(2, 270px) 173px;
+    transition: grid-template-columns 0.8s ease-in-out;
+
+    
 }
 
 @media screen and (min-width: 1441px) {
     .gallery__pictures {
-        grid-template-columns: 880px 524px;
+        grid-template-columns: 1000px 400px;
+        grid-template-rows: repeat(2, 270px) 173px;
     }
 }
 
 @media screen and (max-width: 1439px) {
     .gallery__pictures {
-        grid-template-columns: 700px 439px;
+        grid-template-columns: 805px 332px;
+        grid-template-rows: 220px;
     }
 }
 

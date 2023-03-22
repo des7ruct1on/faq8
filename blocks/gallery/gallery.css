@@ -1,12 +1,11 @@
 .gallery {
-    max-width: 1440px;
     background-color: #FFFFFF;
     margin: auto;
     overflow: hidden;
-    transition: max-width 0.5s ease-in-out, border-radius 2s ease-in-out;
     border-radius: 15px;
+    max-width: 1440px;
+    transition: max-width 0.5s ease-in-out, border-bottom-left-radius 2s ease-in-out, border-bottom-right-radius 2s ease-in-out;
 }
-
 @media screen and (max-width: 1439px) {
     .gallery {
         max-width: 1175px;

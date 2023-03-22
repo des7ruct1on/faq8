@@ -24,11 +24,18 @@
 @import url(../blocks/header/__dropdown-social-link-vk/header__dropdown-social-link-vk.css);
 
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__pictures/gallery__picture__hall.css);
+@import url(../blocks/gallery/__pictures/gallery__picture__lecture.css);
+@import url(../blocks/gallery/__pictures/gallery__picture__magistracy.css);
 @import url(../blocks/gallery/__intro/gallery__intro.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
 @import url(../blocks/gallery/__pictures/gallery__pictures.css);
 @import url(../blocks/gallery/__picture/gallery__picture.css);
 @import url(../blocks/gallery/__column/gallery__column.css);
+@import url(../blocks/gallery/__links/gallery__links__it-floor.css);
+@import url(../blocks/gallery/__links/gallery__links__magistracy.css);
+@import url(../blocks/gallery/__links/gallery__links__lecture.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/copyright.css);

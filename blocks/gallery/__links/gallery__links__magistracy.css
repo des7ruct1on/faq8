@@ -1,0 +1,4 @@
+.gallery__links__magistracy {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
