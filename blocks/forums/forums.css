@@ -1,0 +1,9 @@
+.forums {
+    display: grid;
+    max-width: 1175px;
+    margin: auto;
+    gap: 30px;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: repeat(2, 270px);
+    
+}
