@@ -5,5 +5,20 @@
     gap: 30px;
     grid-template-columns: repeat(4, 270px);
     grid-template-rows: repeat(2, 270px);
-    
+}
+
+@media screen and (max-width: 1439px) {
+    .forums {
+        max-width: 1175px;
+        grid-template-columns: repeat(4, 270px);
+        grid-template-rows: repeat(2, 270px);
+    }
+}
+
+@media screen and (max-width: 1174px) {
+    .forums {
+        max-width: 900px;
+        grid-template-columns: repeat(3, 270px);
+        grid-template-rows: repeat(3, 270px);
+    }
 }

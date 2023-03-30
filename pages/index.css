@@ -37,6 +37,7 @@
 @import url(../blocks/gallery/__links/gallery__links__lecture.css);
 
 @import url(../blocks/forums/forums.css);
+@import url(../blocks/forums/__title-card/forums__title-card.css);
 @import url(../blocks/forums/__picture/forums__picture.css);
 @import url(../blocks/forums/__links/forums__abiturient.css);
 @import url(../blocks/forums/__links/forums__aspirant.css);
@@ -46,6 +47,9 @@
 @import url(../blocks/forums/__links/forums__master.css);
 @import url(../blocks/forums/__links/forums__reference-materials.css);
 @import url(../blocks/forums/__links/forums__student.css);
+
+@import url(../blocks/registration/registrarion.css);
+@import url(../blocks/registration/__window/registration__window.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/copyright.css);
